@@ -10,3 +10,12 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+// ************ task **************
+let myName = 'Beksultan';
+let mySurname = 'Kudaikulov';
+let myWork = 'Frond-end Developer';
+
+let aboutMe = `Меня зовут ${myName} ${mySurname} и я ${myWork}`;
+
+console.log(aboutMe);

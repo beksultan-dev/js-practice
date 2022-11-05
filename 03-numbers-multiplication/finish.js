@@ -7,3 +7,11 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+// *********** task ************
+let number1 = 123;
+let number2 = 2;
+
+let multiply = number1 * number2;
+
+console.log(multiply);
