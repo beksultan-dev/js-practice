@@ -1,3 +1,4 @@
 # js-practice
-#### 80 JavaScript Tasks
-### Started 05.11.2022
+#### start.js - До выполнения
+#### finish.js - После выполнения 
+## Started 05.11.2022
