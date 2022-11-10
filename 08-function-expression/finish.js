@@ -10,3 +10,14 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+
+// ********** task ************
+const sayHello = function (name) {
+	return `Привет, ${name}`;
+}
+
+const result1 = sayHello('Бексултан');
+const result2 = sayHello('Нурсултан');
+
+console.log(result1);
+console.log(result2);

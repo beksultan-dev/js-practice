@@ -8,3 +8,10 @@
  *
  * 4. Вызовите функцию
  */
+
+// ************** task *****************
+function myName() {
+	console.log('Beksultan');
+}
+
+myName();

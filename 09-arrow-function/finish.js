@@ -10,3 +10,20 @@
  *
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
+
+// *********** task *************
+const sayHello = () => {
+	return 'Привет, мир!';
+}
+
+const result = sayHello();
+console.log(result);
+
+
+const sayHelloMod = () => {
+	const hello = 'Привет, мир!';
+	return hello;
+}
+
+const resultMod = sayHelloMod();
+console.log(resultMod);

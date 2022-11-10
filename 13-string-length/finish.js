@@ -4,3 +4,8 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+// ********* task ***********
+let myStr = 'cool';
+let myStrLength = myStr.length;
+console.log(myStrLength);
