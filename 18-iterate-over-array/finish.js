@@ -5,3 +5,7 @@
  * 2. Используя один из методов массивов, переберите все элементы
  * и выведите каждый элемент в консоль
  */
+
+// ********* task **********
+const myArr = ['redux', 'react', 'javascript', 'typescript'];
+myArr.forEach((elem) => console.log(elem));

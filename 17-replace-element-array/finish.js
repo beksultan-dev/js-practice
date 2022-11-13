@@ -8,3 +8,10 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+// ********** task ***********
+const myArr = ['Bishkek', false, 100];
+console.log(myArr);
+
+myArr[1] = true;
+console.log(myArr);

@@ -6,3 +6,9 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+// ********** task **********
+const fruits = ['mango', 'peach', 'apple'];
+const newFruits = ['melon', 'lemon', 'orange'];
+fruits.push(...newFruits);
+console.log(fruits);

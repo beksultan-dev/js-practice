@@ -6,3 +6,10 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+// *********** task ************
+const hello = 'Good Morning';
+
+const newHello = hello.replace('Morning', 'Evening')
+
+console.log(newHello);

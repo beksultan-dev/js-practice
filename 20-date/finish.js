@@ -4,3 +4,10 @@
  *
  * 2. Выведите значение в консоль
  */
+
+// ********** task ***********
+const currentTime = new Date();
+
+const currentTimeInMs = currentTime.getTime();
+
+console.log(currentTimeInMs);

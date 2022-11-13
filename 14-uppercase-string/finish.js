@@ -12,3 +12,19 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+// *********** task ************
+const nickname = 'elon musk';
+const isString = nickname instanceof String;
+
+console.log(isString);
+console.log(typeof nickname);
+
+const newNickname = nickname.toUpperCase();
+console.log(newNickname);
+
+
+const user = new String('pavel');
+console.log(user instanceof String);
+console.log(typeof user);
+console.log();

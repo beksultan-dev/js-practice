@@ -6,3 +6,8 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+// ********** task ***********
+const myArr = ['first element', 25, true];
+console.log(myArr[0]);
+console.log(myArr.length);
