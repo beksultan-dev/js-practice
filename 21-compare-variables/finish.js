@@ -9,9 +9,15 @@
 let myVariable1 = 10
 let myVariable2 = '5'
 
-// Напишите код здесь
+const compareResult1 = parseInt(myVariable1) <= parseInt(myVariable2);
+if (compareResult1) {
+    console.log(compareResult1);
+}
 
 myVariable1 = '20'
 myVariable2 = 100
 
-// Напишите код здесь
+const compareResult2 = parseInt(myVariable1) <= parseInt(myVariable2);
+if (compareResult2) {
+    console.log(compareResult2);
+}
