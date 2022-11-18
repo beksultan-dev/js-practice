@@ -8,3 +8,9 @@
  */
 
 const myArray = [1, 2]
+
+myArray[10] = 'abc';
+console.log(myArray);
+console.log(`Длинна массива: ${myArray.length}`);
+
+// свойство length имеет значение индекса последнего (10 + 1) элемента массива

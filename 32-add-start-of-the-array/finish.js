@@ -10,5 +10,8 @@
 const myArray = [true, null]
 
 // Напишите код здесь
+myArray.unshift('Привет');
+myArray.unshift(100);
+console.log(`Длинна массива: ${myArray.length}`);
 
 console.log(myArray) // [100, "Hello", true, null]

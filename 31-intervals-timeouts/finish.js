@@ -12,3 +12,19 @@
  * "Сообщение номер 4"
  * "Сообщение номер 5"
  */
+
+function counter() {
+    let num = 1;
+    return function() {
+        console.log(`Сообщение номер ${num++}`);
+    }
+}
+const counterMessage = counter();
+
+const interval = setInterval(() => {
+    counterMessage();
+}, 2000);
+
+setTimeout(() => {
+    clearInterval(interval);
+}, 11000);
